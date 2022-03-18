@@ -1,0 +1,9 @@
+[16-Mar-2022 19:10:39 UTC] PHP Warning:  require(/home/briggssp/public_html/projects/websites/weather-app/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/briggssp/public_html/projects/websites/weather-app/index.php on line 34
+[16-Mar-2022 19:10:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/briggssp/public_html/projects/websites/weather-app/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/briggssp/public_html/projects/websites/weather-app/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/briggssp/public_html/projects/websites/weather-app/index.php on line 34
+[18-Mar-2022 12:34:07 UTC] PHP Fatal error:  Could not check compatibility between App\Exceptions\Handler::render($request, App\Exceptions\Exception $exception) and Illuminate\Foundation\Exceptions\Handler::render($request, Throwable $e), because class App\Exceptions\Exception is not available in /home/briggssp/weather-app/app/Exceptions/Handler.php on line 42
+[18-Mar-2022 12:34:25 UTC] PHP Fatal error:  Could not check compatibility between App\Exceptions\Handler::render($request, App\Exceptions\Exception $exception) and Illuminate\Foundation\Exceptions\Handler::render($request, Throwable $e), because class App\Exceptions\Exception is not available in /home/briggssp/weather-app/app/Exceptions/Handler.php on line 45
+[18-Mar-2022 12:36:20 UTC] PHP Fatal error:  Could not check compatibility between App\Exceptions\Handler::render($request, App\Exceptions\Exception $exception) and Illuminate\Foundation\Exceptions\Handler::render($request, Throwable $e), because class App\Exceptions\Exception is not available in /home/briggssp/weather-app/app/Exceptions/Handler.php on line 45
+[18-Mar-2022 13:12:30 UTC] PHP Fatal error:  Cannot use [] for reading in /home/briggssp/weather-app/app/Http/Controllers/WeatherController.php on line 54
